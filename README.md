@@ -20,12 +20,9 @@ Every year, care staff read in medical records without having a care-contact wit
 
 The programe is linked to all the healthcare workers that moves in the journal and to activities in the journal. The program examines the employees against several criteria once a month and then sends a report to the system administrator. Suspicious events are then investigated at the department further where the incident took place by an administrator.  In what kind situations is the solution needed. the system will automate and clear data so that the search for violations becomes easier and more manageable.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://pixabay.com/sv/vectors/ehr-emr-elektroniska-journaler-1476525)
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://pixabay.com/sv/vectors/ehr-emr-elektroniska-journaler-1476525" width="300">
+
+<img src="ehr-g05113767b_1280.png" width="300">
 
 This is how you create code examples:
 ```
@@ -58,7 +55,7 @@ If you need to use links, here's an example:
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The program only evaluates the parameters that help the system assess how likely it is that the reading is okay or not, but it can be difficult to determine this as a lot of movement in the medical record can look suspicious when doctors have to rush to a ward urgently and leave the computer and at the same time logged in to a patient without any changes being made so the program must take into account how healthcare professionals work.The program may not be seen as ethically okay, but since programs do not discriminate against events, it can be argued that the use should not be seen as less ethical than letting trampling on journals go unnoticed. 
 
 ## What next?
 
