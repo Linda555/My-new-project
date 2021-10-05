@@ -39,8 +39,7 @@ The project can result in a more secure patient record. The difficult thing is t
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
+* Sources of inspiration 
+* image creator: mcmurryjulie 
   <br>Emr-elektriska-journaler: [https://pixabay.com/sv/vectors/ehr-emr-elektroniska-journaler-1476525/](https://pixabay.com/sv/vectors/ehr-emr-elektroniska-journaler-1476525/) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
 * etc
