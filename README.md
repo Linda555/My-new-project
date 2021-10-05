@@ -18,7 +18,7 @@ Every year, care staff read in medical records without having a care-contact wit
 
 ## How is it used?
 
-The programe is linked to all the healthcare workers that moves in the journal and to activities in the journal. The program examines the employees against several criteria once a month and then sends a report to the system administrator. Suspicious events are then investigated at the department further where the incident took place by an administrator.  In what kind situations is the solution needed. the system will automate and clear data so that the search for violations becomes easier and more manageable.
+The program is linked to all the healthcare workers that moves in the journal and to activities in the journal. The program examines the employees against several criteria once a month and then sends a report to the system administrator. Suspicious events are then investigated at the department further where the incident took place by an administrator.  In what kind situations is the solution needed. the system will automate and clear data so that the search for violations becomes easier and more manageable.
 
 
 
