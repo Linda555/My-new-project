@@ -39,7 +39,7 @@ The project can result in a more secure patient record. The difficult thing is t
 
 ## Acknowledgments
 
-* Sources of inspiration 
+ 
 * image creator: mcmurryjulie 
   <br>Emr-elektriska-journaler: [https://pixabay.com/sv/vectors/ehr-emr-elektroniska-journaler-1476525/](https://pixabay.com/sv/vectors/ehr-emr-elektroniska-journaler-1476525/) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+
