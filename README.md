@@ -1,24 +1,24 @@
 
-# AI-program that verify intern approved or un approved reading in the patient record.
+# VeriCare – The AI-agent that ensures healthcare professionals have legitimate access to patient records at the right time.
 
 Final project for the Building AI course
 
 ## Summary
 
-The AI-program automatically calculates probability for "not approved" reading and sends a report if a reading in the medical record is listed at "not approved". 
-The probability is calculated from caregiver's department in the hospital, work title, journal-aktivity and patient's most recent active visits.
+VeriCare is an AI-driven program that automatically calculates the probability of unauthorized access to patient records. If an access attempt is classified as "not approved," the system generates a report. The probability assessment is based on factors such as the caregiver’s department, job title, journal activity, and the patient’s most recent visits.
 
 
 ## Background
 
-Every year, care staff read in medical records without having a care-contact with the patient. The integrity of several patients is violated. This is contrary to the Patient Data Act, which points out that you must be involved in the patient's care in order to read the medical record. The care staff leaves a digital footprint in the medical record when it is read, but the problem is that few have time to check the log and this is not routinely managed in all departments. Therefore, it is often up to the patient himself to suspect and investigate who has read in his patient record and if that person is involved in the care. The safety of the journal is not the patient's responsibility by law.. but the responsibility is often placed on the patient.
-
+Each year, healthcare staff access patient records without having an active care relationship with the patient, violating patient privacy. This practice conflicts with the Patient Data Act, which states that access to medical records must be justified by patient care involvement.
+While digital footprints are left when records are accessed, reviewing logs is time-consuming and not consistently enforced across all departments. As a result, patients are often left to suspect and investigate unauthorized access themselves. Legally, ensuring medical record security is the healthcare provider’s responsibility, yet in practice, the burden often falls on the patient.
 
 
 
 ## How is it used?
 
-The program is linked to all the healthcare workers that moves in the journal and to activities in the journal. The program examines the employees against several criteria once a month and then sends a report to the system administrator. Suspicious events are then investigated at the department further where the incident took place by an administrator.  In what kind situations is the solution needed. the system will automate and clear data so that the search for violations becomes easier and more manageable.
+VeriCare monitors healthcare workers' interactions with patient records and analyzes these activities against predefined criteria. Once a month, the system generates a report for the system administrator, flagging suspicious access events. These cases are then further investigated within the relevant department.
+By automating data analysis, VeriCare makes it easier to detect and manage potential violations, streamlining compliance monitoring.
 
 
 
@@ -26,16 +26,16 @@ The program is linked to all the healthcare workers that moves in the journal an
 
 
 ## Data sources and AI methods
-Data is created when a journal is visited and the data is stored in the journalsystem. The AI-program borrows the data temporarily and matches it against several parameters to determine different probabilities.
+Data is generated whenever a medical record is accessed and stored in the journal system. VeriCare temporarily processes this data, comparing it against multiple parameters to assess the likelihood of unauthorized access.
 
 ## Challenges
 
-The program only evaluates the parameters that help the system assess how likely it is that the reading is okay or not, but it can be difficult to determine this as a lot of movement in the medical record can look suspicious when doctors have to rush to a ward urgently and leave the computer and at the same time logged in to a patient without any changes being made so the program must take into account how healthcare professionals work.The program may not be seen as ethically okay, but since programs do not discriminate against events, it can be argued that the use should not be seen as less ethical than letting trampling on journals go unnoticed. 
+The system evaluates parameters to determine the probability of improper access. However, certain medical workflows—such as doctors urgently responding to a patient while remaining logged into a system—can create seemingly suspicious activity. VeriCare must account for these real-world scenarios to avoid false alarms.
+Ethical concerns may arise regarding AI-based monitoring. However, since the system applies uniform criteria without bias, it can be argued that using AI to identify potential violations is no less ethical than allowing unauthorized access to go unchecked.
 
 ## What next?
 
-The project can result in a more secure patient record. The difficult thing is that the program must have access to the patient record and its users, which means that there are many laws that need to be examined and care managers may not trust the AI-program at all. I think the project needs more caregivers involved and legal support.  
-
+VeriCare has the potential to enhance patient record security. However, implementing the system requires access to sensitive data, raising legal and trust-related challenges. To move forward, the project will need the involvement of more healthcare providers and legal experts to ensure compliance and acceptance within the medical community.
 
 ## Acknowledgments
 
